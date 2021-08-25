@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    align-items: center;
+    text-align: center;
+display: flex;
+justify-content: center;
+}
+.grand_parent{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.parent{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+}
+
+
+#sects{
+    padding: 30px;
+    background-color: silver;
+    margin: 20px;
+    display: flex;
+    width: 200%;
+    height: 150%;
+
+}
+
+#sect1{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #b21e35;
+    margin: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 20px #815ac0;
+    flex: 1 200px ;
+
+
+}
+#p1{
+text-align: center;
+
+}
+#sect2{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color:#cd9777;
+    margin: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 20px #815ac0;
+    flex: 1 200px;
+
+}
+#p2{
+    text-align: center;
+}
+#sect3{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #469d89;
+    margin: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 20px #815ac0;
+    flex: 1 200px;
+
+}
+#p3{
+    text-align: center;
+}
+#header_navbar{
+    background-color: yellow;
+    border: 0;
+    border-radius: 0;
+}
+.navbar-brand{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    align-items: flex-start;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+
+}
+
+@media (min-width: 768px){
+    .navbar-toggle{
+        display: none;
+    }
+}
+.navbar-toggle.icon-bar{
+    display: flexbox;
+    width: 22px;
+    height: 2px;
+    border-radius: 2px;
+}
+.navbar-toggle .icon-bar + .icon-bar{
+    margin-top:5px ;
+
+}
+.navbar-nav{
+    margin: 10px -20px;
+}
+.navbar-nav>ul>a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
